@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+
+  web:
+    build:
+      context: .
+    environment:
+      FLASK_APP: awesome_site
+      FLASK_ENV: development
+      ENVIRONMENT: "LocalTesting"
+      USER: "Antonio"
+    command: "flask run --host=0.0.0.0"
+    volumes:
+    - ./awesome_site:/opt/awesome_site
+    working_dir: /opt
+    ports:
+      - 8080:5000
