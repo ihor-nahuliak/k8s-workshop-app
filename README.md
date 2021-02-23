@@ -10,3 +10,4 @@ where it is deployed and a greeting depending on the user if defined.
 ENVIRONMENT="LocalTesting"
 USER="archie"
 ````
+The image is available at: `ghcr.io/aydevosotros/k8s-workshop-app`
