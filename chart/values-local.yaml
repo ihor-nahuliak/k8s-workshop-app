@@ -1,4 +1,4 @@
 workshop:
   environment: "LOCAL"
-  user: "Antonio"
+  user: "LocalUser"
   other: ""
