@@ -5,6 +5,7 @@
 workshop:
   environment: "local"
   user: "Antonio"
+  other: ""
 
 replicaCount: 1
 
