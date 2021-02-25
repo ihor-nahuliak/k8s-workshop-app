@@ -1,4 +1,4 @@
 workshop:
-  environment: "MINIKUBE2"
+  environment: "MINIKUBE"
   user: "LocalUser"
   other: ""
